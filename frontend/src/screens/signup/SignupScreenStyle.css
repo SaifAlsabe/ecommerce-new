@@ -1,0 +1,33 @@
+.form-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.form-list {
+    list-style-type: none;
+    width: 30rem;
+    border: 0.1rem gray solid;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+
+.form-list li {
+    padding-bottom: 2rem;
+}
+
+input {
+    width: 98%;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+    height: 3rem;
+}
+
+.create-account {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

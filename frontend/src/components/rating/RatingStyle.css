@@ -1,0 +1,15 @@
+.full {
+    color: orange;
+}
+
+.half-full {
+    color: orange;
+    position: relative;
+}
+
+.half-empty {
+    transform: scaleX(-1);
+    color: black;
+    position: absolute;
+    left: 0;
+}

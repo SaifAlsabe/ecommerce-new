@@ -1,0 +1,38 @@
+.svg {
+    width: 30rem;
+    height: 25rem;
+    opacity: 0.5;
+}
+
+.error-page {
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.error-page>* {
+    margin: 2rem;
+}
+
+.error-1 {
+    color: var(--blue-theme);
+    font-size: 5rem;
+}
+
+.error-2 {
+    font-size: 2.5rem;
+}
+
+.error-3 {
+    font-size: 1.5rem;
+}
+
+@media(max-width: 600px) {
+    .svg {
+        width: 20rem;
+        height: 15rem;
+        opacity: 0.5;
+    }
+}

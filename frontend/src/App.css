@@ -1,0 +1,36 @@
+.button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #808080 solid;
+    cursor: pointer;
+    background-color: var(--blue-theme);
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.2s all linear;
+}
+
+input:focus,
+button:focus,
+button:hover,
+button {
+    outline: none;
+    border: 0.1rem black solid;
+    border-radius: 0.5rem;
+}
+
+input {
+    width: 98%;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: large;
+    transition: 0.2s all linear;
+}
+
+.error {
+    color: red;
+    width: 15rem;
+}

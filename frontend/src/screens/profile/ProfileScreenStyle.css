@@ -1,0 +1,28 @@
+   .profile {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+   
+   .change-form {
+       border: 0.1rem solid var(--black-theme);
+       background-color: whitesmoke;
+       border-radius: 1rem;
+       padding: 2rem;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+   }
+   
+   .change-list {
+       min-height: 25rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: flex-start;
+   }
+   
+   .change {
+       margin-top: 3rem;
+   }

@@ -1,0 +1,22 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.payment-option {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.payment-method {
+    width: 1.5rem;
+    margin-right: 2rem;
+}
+
+.payment-method:hover {
+    cursor: pointer;
+}

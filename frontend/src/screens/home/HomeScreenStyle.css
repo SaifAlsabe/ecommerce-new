@@ -1,0 +1,37 @@
+.home {
+    height: 100%;
+}
+
+.product a {
+    color: black;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.product {
+    height: 30rem;
+    font-weight: bold;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid rgb(201, 201, 201);
+}
+
+.product-image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+    transition: 0.1s transform linear;
+}
