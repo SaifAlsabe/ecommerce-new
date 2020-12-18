@@ -6,6 +6,8 @@ Carbon is an ecommerce website where you can create an account, update your prof
 
 Click [here](https://shop-carbon.herokuapp.com/) for live demo.
 
+![](demo/carbon.gif)
+
 ## Installation
 
 Clone the source locally:
